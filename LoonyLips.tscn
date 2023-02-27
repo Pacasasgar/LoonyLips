@@ -44,3 +44,5 @@ margin_top = 516.0
 margin_right = 976.0
 margin_bottom = 552.0
 custom_fonts/font = SubResource( 2 )
+
+[connection signal="text_entered" from="VBoxContainer/LineEdit" to="." method="_on_LineEdit_text_entered"]
