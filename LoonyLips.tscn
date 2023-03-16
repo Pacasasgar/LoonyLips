@@ -74,5 +74,5 @@ margin_bottom = 68.0
 custom_fonts/font = SubResource( 3 )
 text = "Ok"
 
-[connection signal="text_entered" from="VBoxContainer/HBoxContainer/PlayerText" to="." method="_on_LineEdit_text_entered"]
+[connection signal="text_entered" from="VBoxContainer/HBoxContainer/PlayerText" to="." method="_on_PlayerText_text_entered"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/TextureButton" to="." method="_on_TextureButton_pressed"]
